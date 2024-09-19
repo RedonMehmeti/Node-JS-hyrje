@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Node JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Bank Account Manager</h1>
+        <div class="account-info">
+            <p><strong>Emri i Llogarisë:</strong> <span id="accountName">Filan Fisteku</span></p>
+            <p><strong>Bilanci:</strong> <span id="balance">1000</span> Euro</p>
+        </div>
+
+        <div class="actions">
+            <input type="number" id="amount" placeholder="Shkruaj shumën">
+            <button onclick="deposit()">Depozito</button>
+            <button onclick="withdraw()">Tërhiq</button>
+        </div>
+
+        <div id="message"></div>
+    </div>
+
+    <script src="node.js"></script>
+</body>
+</html>
